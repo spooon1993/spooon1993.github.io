@@ -1,0 +1,198 @@
+@font-face {
+    font-family: 'helvetica neue';
+    src: url('../fonts/helveticaneuecyr-light-webfont.eot');
+    src: url('../fonts/helveticaneuecyr-light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/helveticaneuecyr-light-webfont.woff2') format('woff2'),
+    url('../fonts/helveticaneuecyr-light-webfont.woff') format('woff'),
+    url('../fonts/helveticaneuecyr-light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'helvetica neue';
+    src: url('../fonts/helveticaneuecyr-bold-webfont.eot');
+    src: url('../fonts/helveticaneuecyr-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/helveticaneuecyr-bold-webfont.woff2') format('woff2'),
+    url('../fonts/helveticaneuecyr-bold-webfont.woff') format('woff'),
+    url('../fonts/helveticaneuecyr-bold-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+.wrap {
+    position: relative;
+    width: 1215px;
+    height: 1064px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'helvetica neue';
+}
+
+.footer {
+    height: 36px;
+    background-color: #085699;
+}
+
+.navigation {
+    margin-left: 449px;
+}
+
+.navigation >li >a {
+    padding: 10.5px 13px;
+    float: left;
+    color: #4f9ed7;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    background-color: #4eabda;
+    color: #fff;
+}
+
+.navigation li:last-child {
+    height: 31px;
+    margin-top: 2px;
+    margin-left: 4px;
+    float: left;
+    border-left: 1px #4eabda solid;
+}
+
+.navigation-flag >li >a {
+    padding: 10px 13px;
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.navigation-flag >li {
+    padding: 10px 4px;
+    float: left;
+    font-size: 15px;
+}
+
+.navigation-flag >li:first-child {
+    margin-left: 12px;
+}
+
+.flag {
+    float: left;
+}
+
+.navigation-flag a:hover {
+    background-color: #4eabda;
+}
+
+.content {
+    width: 1215px;
+    height: 1028px;
+    background-image: url('../image/background.jpg');
+}
+
+.sign-up {
+    position: absolute;
+    width: 560px;
+    height: 610px;
+    margin: 17.5% 29%;
+    background: rgba(0, 0, 0, .5);
+}
+
+.cadastre {
+    padding: 19px;
+    border-bottom: 2px #fff solid;
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+}
+
+.fb-login {
+    margin: 35px 142px 10px;
+}
+
+.line {
+    margin-top: 28px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.ou {
+    display: inline-block;
+    position: relative;
+    color: #828482;
+    font-size: 13px;
+    text-align: center;
+}
+
+.ou::before,
+.ou::after {
+    position: absolute;
+    top: 50%;
+    width: 122px;
+    height: 1px;
+    background: #828482;
+    content: '';
+}
+
+.ou::before {
+    right: 100%;
+    margin-right: 5px;
+}
+
+.ou::after {
+    left: 100%;
+    margin-left: 7px;
+}
+
+.input-data {
+    margin-top: 28px;
+}
+
+.input {
+    display: block;
+    width: 275px;
+    height: 33px;
+    margin: 17px 143px;
+    border: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+.input:hover {
+    background-color: #1b5288;
+    box-shadow: 0 0 15px 5px rgba(79, 138, 180, .75);
+}
+
+.checkbox {
+    margin-top: 19px;
+    margin-left: 141px;
+    font-size: 14px;
+}
+
+.checkbox span {
+    color: #fff;
+}
+
+.submit {
+    width: 151px;
+    height: 37px;
+    margin-top: 20px;
+    margin-left: 206px;
+    border: 0;
+    border-radius: 4px;
+    background-color: #2e7bc4;
+    color: #fff;
+}
+
+.policy {
+    width: 310px;
+    margin-top: 17px;
+    margin-left: 117px;
+    color: #fff;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+}
+
